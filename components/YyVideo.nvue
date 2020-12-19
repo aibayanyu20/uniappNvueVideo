@@ -1,0 +1,18 @@
+<template>
+	<video src="" controls >
+		<!-- 包装的内容信息 -->
+		<cover-view>
+			
+		</cover-view>
+	</video>
+</template>
+
+<script>
+	export default {
+		
+	}
+</script>
+
+<style>
+
+</style>
