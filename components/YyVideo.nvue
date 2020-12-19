@@ -10,8 +10,19 @@
 </template>
 
 <script>
-	
+	// 头部分离组件
+	import header from "./videoComponent/header.nvue"
+	// 内容区域分离组件
+	import content from "./videoComponent/content.nvue"
+	// 底部分离组件
+	import footer from "./videoComponent/footer.nvue"
 	export default {
+		// 引入组件文件
+		components:{
+			header,
+			content,
+			footer
+		},
 		props:{
 			src:{
 				type:String,
