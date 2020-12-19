@@ -5,8 +5,11 @@
 </template>
 
 <script>
+	import YyVideo from "@/components/YyVideo.nvue"
 	export default {
-		
+		components:{
+			YyVideo
+		}
 	}
 </script>
 
